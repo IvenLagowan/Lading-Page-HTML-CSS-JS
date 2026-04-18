@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chua | Junior Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+</head>
+
+<body>
+
+<header>
+    <h1>Chua</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h2>Halo, Saya <span>Chua</span><br>Junior Web Developer</h2>
+        <p>Membuat website modern, responsive & user-friendly</p>
+        <button class="btn" onclick="scrollToSection()">Lihat Selengkapnya</button>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah Junior Web Developer yang fokus pada pembuatan website modern, cepat, dan responsive menggunakan teknologi terbaru.</p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Keahlian</h2>
+    <div class="skills">
+        <div class="card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+        <div class="card"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+        <div class="card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+        <div class="card"><i class="fas fa-mobile-alt"></i><p>Responsive</p></div>
+        <div class="card"><i class="fas fa-paint-brush"></i><p>UI/UX</p></div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section id="service" class="section">
+    <h2>Layanan</h2>
+    <div class="services">
+        <div class="card">
+            <i class="fas fa-code"></i>
+            <p>Website Development</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-laptop-code"></i>
+            <p>Landing Page</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-bolt"></i>
+            <p>Website Optimization</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Kontak Saya</h2>
+    <p>Email: cuaocue@gmail.com</p>
+
+    <div class="contact-box">
+        <a href="https://wa.me/6285254221251" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+        <a href="mailto:cuaocue@gmail.com">
+            <i class="fas fa-envelope"></i> Email
+        </a>
+    </div>
+
+    <!-- GOOGLE MAPS WAMENA -->
+    <iframe 
+        src="https://maps.google.com/maps?q=Wamena%20Papua&t=&z=13&ie=UTF8&iwloc=&output=embed">
+    </iframe>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Chua. All Rights Reserved.</p>
+
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+
+<script>
+function scrollToSection() {
+    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+</body>
+</html>
